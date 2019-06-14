@@ -1,12 +1,14 @@
 :root {
     --wine-red: hsl(0, 32%, 24%);
-    --fifty-white: hsla(0,100%,100%,50%);
+    --fifty-white: hsla(0, 100%, 100%, 50%);
+    --more-white: hsla(0, 100%, 100%, 90%);
 }
 
 body {
     font-family: "Tahoma", sans-serif;
     color: var(--wine-red);
-    margin: 0 auto; /* margin */
+    margin: 0 auto;
+    /* margin */
     background: white url(/img/trbg.svg) no-repeat 55% 0%;
 }
 
@@ -53,8 +55,41 @@ nav {
     width: 25px;
 }
 
-.nav-list {
-    font-size: 25px;
+nav ul {
+    font-size: 35px;
+    position: fixed;
+    width: 60%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: hsla(105, 20%, 10%, 95%);
+    padding: 0 0 10px 10px;
+    margin-top: 0;
+    height: 100%;
+    color: hsla(51, 65%, 92%, 1);
+    line-height: 2em;
+}
+
+nav ul li:nth-child(2) {
+    margin-top: 70px;
+}
+
+.exit-btn {
+    height: 0;
+    text-align: right;
+    padding-right: 19px;
+    margin-top: -15px;
+}
+
+.exit-btn img {
+    height: 25px;
+    width: auto;
+}
+
+.nav-line {
+    background: hsla(105, 20%, 20%, 95%);
+    margin-left: -10px;
+    padding-left: 10px;
 }
 
 /* --hero-- */
@@ -73,7 +108,7 @@ nav {
     grid-gap: 10px;
     grid-template-columns: 160px 160px;
     justify-content: center;
-    background:  hsla(0, 32%, 24%, 60%);
+    background: hsla(0, 32%, 24%, 60%);
     padding: 10px;
     margin-top: -10px;
     width: 330px;
@@ -131,7 +166,7 @@ nav {
 }
 
 #wc-learn-more {
-    background: hsla(0,100%, 100%, 0%);
+    background: hsla(0, 100%, 100%, 0%);
     border: solid 2px var(--wine-red);
     color: var(--wine-red);
     font-family: "Georgia", serif;
@@ -141,9 +176,14 @@ nav {
 }
 
 /* --red section-- */
+
 .red-container {
     width: 100%;
     background: var(--wine-red);
     color: white;
-    padding: 4em 0 2em;
+    padding: 2em 0 2em;
+}
+
+.red-container ul li {
+    margin-bottom: 2em;
 }
