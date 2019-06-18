@@ -8,8 +8,7 @@ body {
     font-family: "Tahoma", sans-serif;
     color: var(--wine-red);
     margin: 0 auto;
-    /* margin */
-    background: white url(/img/trbg.svg) no-repeat 55% 0%;
+    background: url(/img/trbg.svg) no-repeat 55% 0%, white url(/img/vines.svg) no-repeat 3% 105%;
 }
 
 a {
@@ -186,4 +185,29 @@ nav ul li:nth-child(2) {
 
 .red-container ul li {
     margin-bottom: 2em;
+}
+
+/* --bottom-- */
+
+.bottom {
+}
+
+.history-copy {
+    color: black;
+    font-size: 17px;
+    margin-top: -10px;
+}
+
+address {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.email-phone{
+    font-size: 11px;
+}
+
+.bottom ul {
+
 }
