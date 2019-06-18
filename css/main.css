@@ -111,7 +111,7 @@ nav ul li:nth-child(2) {
     padding: 10px;
     margin-top: -10px;
     width: 330px;
-    height: 310px;
+    height: 285px;
 }
 
 .featured-name {
@@ -137,21 +137,11 @@ nav ul li:nth-child(2) {
     font-size: 14px;
 }
 
-.red-section-list img {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-}
-
-.red-section-h3 {
-    font-weight: normal;
-}
-
 /* --wine club cta-- */
 
 .wine-club-cta {
     text-align: center;
-    margin-top: 45px;
+    margin-top: 20%;
 }
 
 #wc-sign-up {
@@ -175,6 +165,16 @@ nav ul li:nth-child(2) {
 }
 
 /* --red section-- */
+
+.red-section-list img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.red-section-h3 {
+    font-weight: normal;
+}
 
 .red-container {
     width: 100%;
