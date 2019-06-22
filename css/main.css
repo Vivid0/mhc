@@ -141,7 +141,7 @@ nav ul li:nth-child(2) {
 
 .wine-club-cta {
     text-align: center;
-    margin-top: 10%;
+    margin: 5% 0 10% 0;
 }
 
 #wc-sign-up {
@@ -168,7 +168,8 @@ nav ul li:nth-child(2) {
 
 .red-section-list {
     font-size: 12px;
-    margin: 0 5em 0 5em;
+    margin: 0 auto;
+    width: 250px;
 }
 
 .red-section-list img {
@@ -179,6 +180,7 @@ nav ul li:nth-child(2) {
 
 .red-section-h3 {
     font-weight: normal;
+    font-size: 18px;
 }
 
 .red-container {
@@ -195,6 +197,7 @@ nav ul li:nth-child(2) {
 /* --bottom-- */
 
 .bottom {
+    height: 775px;
 }
 
 .history-copy {
@@ -217,8 +220,12 @@ address {
     color: black;
 }
 
+.contact {
+    position: relative;
+    top: 35%;
+}
+
 .bottom ul {
-    margin-top: 65%;
     margin-bottom: 0;
 }
 
@@ -231,13 +238,93 @@ address {
     width: auto;
 }
 
-@media only screen and (min-width: 650px) {
-
-
+@media only screen and (min-width: 750px) {
+    
     .red-section-list {
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        justify-items: center;
+        justify-content: center;
+        grid-gap: 30%;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .show-desktop {
+        display: block;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    nav {
+        display: inline;
+    }
+
+    .logo {
+        margin: -20% 0 0 -75%;
+    }
+
+    nav ul {
+        width: auto;
+        height: auto;
+        background: none;
+        padding-top: 0;
+        position: relative;
+        text-align: right;
+    }
+
+    .nav-line{
+        display: inline;
+        background-color: inherit;
+        font-size: 20px;
+        margin-left: 1%;
+    }
+
+    nav ul li a {
+        color: var(--wine-red);
+        background-color: inherit;
+        text-align: right;
+    }
+
+    .subhead {
+        margin: 15% 0 0 -5%;
+        width: 40%;
+    }
+
+    .featured-wine {
+        margin: -170px 0 0 50%;
+    }
+
+    .featured-box {
+        width: 462px;
+        height: 365px;
+        grid-template-columns: 224px 224px;
+    }
+
+    .featured-description {
+        font-size: 15px;
+    }
+
+    .featured-name {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .featured-image img {
+        width: 224px;
+        height: 100%;
+    }
+
+    .wine-club-cta {
+        margin: -20% 0 23% -75%;
     }
 
 }
+
+/* 
+width: 660px;
+height: 500px; */
