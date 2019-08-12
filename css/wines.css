@@ -1,0 +1,35 @@
+.table-cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.table {
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 2.6vw;
+    max-width: 800px;
+}
+
+.row, .title-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+
+.title-row {
+    font-weight: 900;
+}
+
+.text {
+    text-align: left;
+}
+
+.number {
+    text-align: right;
+}
+
+@media (min-width: 900px) {
+    .table {
+        font-size: 23px;
+    }
+}
