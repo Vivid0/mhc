@@ -107,7 +107,7 @@ nav ul :first-child {
 }
 
 .featured-image {
-    background: white url(/img/calzin.jpg);
+    background: white url(/img/calzin_sm.png);
     background-size: cover;
     background-position: top;
     height: 300px;
@@ -195,7 +195,6 @@ nav ul :first-child {
 
 .footer img {
     width: 100px;
-    height: 100%;
 }
 
 .contact {
@@ -342,6 +341,10 @@ nav ul :first-child {
 
     .red-section-list img {
         width: 25vw;
+    }
+
+    .container {
+        max-width: 1500px;
     }
 
 }
