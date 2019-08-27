@@ -4,6 +4,78 @@
 
 .articles img {
     width: 100%;
+    border: 3px solid black;
+}
+
+/* map */
+.map {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 105vh;
+}
+
+.north {
+    margin-left: 30vw;
+}
+
+.map img {
+    justify-self: center;
+    width: 90vw;
+    margin: 5vh 0;
+}
+
+.map h1 {
+    font-family: var(--serif);
+}
+
+.map h2 {
+    margin: 0;
+    font-family: var(--serif);
+    color: var(--gold);
+}
+
+.map ul {
+    margin-top: 0;
+}
+
+/* footer */
+
+address {
+    color: var(--gold);
+}
+
+.emailPhone {
+    color: white;
+}
+
+@media (min-width: 530px) {
+    
+    .map h2 {
+        font-size: 2vw;
+    }
+
+    .instructions {
+        font-size: 1.5vw;
+    }
+
+    .north {
+        margin-left: 20vw;
+    }
+    
+    .map img {
+        margin: -5vh 0;
+    }
+
+    .south {
+        margin-left: 65vw;
+        margin-top: -10vh;
+    }
+}
+
+@media (min-width: 760px) {
+    .map img {
+        max-width: 700px;
+    }
 }
 
 @media (min-width: 900px) {
@@ -13,7 +85,7 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto 1fr;
         align-items: start;
-        grid-gap: 10px;
+        grid-gap: 20px;
         margin-top: 50px;
     }
 
@@ -33,5 +105,14 @@
         font-size: 1.5vw;
     }
 
+    .north {
+        margin-left: 25vw;
+    }
 
+}
+
+@media (min-width: 1080px) {
+    .north {
+        margin-left: 30vw;
+    }
 }

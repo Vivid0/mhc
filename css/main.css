@@ -5,6 +5,7 @@
     --light-green: hsla(105, 20%, 20%, 95%);
     --gray: hsla(0, 0%, 95%, 100%);
     --red-hover: hsla(0, 77%, 22%, 1);
+    --gold: hsla(49, 63%, 69%, 1);
     --serif: "Georgia", serif;
 }
 
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-    padding: 5% 5%;
+    padding: 5vw;
 }
 
 ul {

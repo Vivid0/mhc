@@ -1,0 +1,60 @@
+.intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 3.5vw;
+}
+
+.white-article img {
+    border: solid black 3px;
+}
+
+figcaption {
+    font-size: 2.5vw;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 20px;
+}
+
+.book img {
+    width: 200px;
+    border: solid black 3px;
+}
+
+.red-article {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 3.5vw;
+    justify-items: center;
+}
+
+.red-article h1 {
+    justify-self: start;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    border: solid black 3px;
+}
+
+.red-article img {
+    width: 80vw;
+}
+
+.blazing figure {
+    margin-bottom: 20px;
+}
+
+.blazing figure img {
+    width: 90vw;
+}
+
+.white-article img {
+    width: 90vw;
+}

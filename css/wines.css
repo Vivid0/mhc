@@ -1,7 +1,7 @@
 .table-cont {
+    text-align: center;
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    justify-content: center;
 }
 
 .table {
@@ -9,6 +9,11 @@
     grid-template-columns: 1fr;
     font-size: 2.6vw;
     max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.table h2 {
+    text-align: center;
 }
 
 .row, .title-row {
