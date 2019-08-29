@@ -16,6 +16,10 @@ body {
     background: #ffffff;
 }
 
+h1 {
+    text-align: center;
+}
+
 .container {
     padding: 5vw;
 }
@@ -37,7 +41,7 @@ a {
 /* nav */
 
 .menu {
-    width: 25px;
+    width: 8vw;
     position: absolute;
     right: 5%;
     margin: 0;
@@ -69,7 +73,7 @@ nav ul :first-child {
 }
 
 .exit-btn img {
-    height: 25px;
+    height: 8vw;
     width: auto;
 }
 
@@ -130,8 +134,8 @@ nav ul :first-child {
     border: none;
     border-radius: 15px;
     height: 50px;
-    width: 47%;
-    font-size: 1.4em;
+    width: 40vw;
+    font-size: 5.3vw;
     font-family: "Georgia", serif;
 }
 
@@ -140,8 +144,8 @@ nav ul :first-child {
     border: solid 3px var(--red);
     color: var(--red);
     height: 50px;
-    width: 47%;
-    font-size: 1.4em;
+    width: 40vw;
+    font-size: 5.3vw;
     font-family: "Georgia", serif;
 }
 
