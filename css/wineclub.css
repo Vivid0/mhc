@@ -2,3 +2,50 @@
     width: 90vw;
     border: solid black 3px;
 }
+
+.billing {
+    text-align: center;
+}
+
+.signup {
+    font-size: 0;
+}
+
+.signup input {
+    font-size: 3vw;
+    background: var(--white);
+    margin: 0 0 1vw 1vw;
+    border: none;
+    padding: 0;
+    height: 30px;
+    text-indent: 4px;
+}
+
+/* signup name */
+
+.fname {
+    width: 20vw;
+}
+
+.lname {
+    width: 54vw;
+}
+
+/* signup address */
+
+.city {
+    width: 40vw;
+}
+
+.state {
+    width: 10vw;
+}
+
+.zip {
+    width: 23vw;
+}
+
+.email {
+    width: 75vw;
+}
+
