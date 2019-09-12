@@ -157,6 +157,17 @@
     grid-template-rows: repeat(4,40px);
     width: 80vw;
     justify-self: center;
+    margin-left: 13vw;
+    
+}
+
+.favWines label {
+    display: grid;
+    text-align: start;
+}
+
+.favWines label span {
+    margin-left: 100px;
 }
 
 #ports {
