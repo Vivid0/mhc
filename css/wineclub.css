@@ -51,9 +51,6 @@
 }
 
 .special input {
-    position: absolute;
-    top: 0;
-    left: 0;
     opacity: 0;
     cursor: pointer;
     height: 0;
@@ -128,7 +125,7 @@
     margin-top: 20px;
     padding: 5px;
     width: 40vw;
-    height: 50px;
+    height: 10vw;
     border-radius: 15px;
     -webkit-appearance: none;
     font-size: 5.3vw;
@@ -143,7 +140,7 @@
     background-color: transparent;
     padding: 5px;
     width: 40vw;
-    height: 50px;
+    height: 10vw;
     font-size: 5.3vw;
     font-family: Georgia, serif;
     color: var(--white);
@@ -156,9 +153,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4,40px);
     width: 80vw;
-    justify-self: center;
-    margin-left: 13vw;
-    
+    margin-left: 9vw;
 }
 
 .favWines label {
