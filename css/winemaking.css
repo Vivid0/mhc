@@ -16,3 +16,26 @@ button {
     font-weight: 900;
     height: 22vw;
 }
+
+.article img {
+    border: solid 3px black;
+}
+
+.article ul {
+    text-align: center;
+    line-height: 1px;
+    color: black;
+}
+
+.article ul li {
+    margin-top: 100px;
+}
+
+.article ul li h3 {
+    font-size: 5vw;
+}
+
+.article ul li img {
+    border: none;
+    width: 70vw;
+}
