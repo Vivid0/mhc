@@ -45,7 +45,6 @@ a {
     position: absolute;
     right: 5%;
     margin: 0;
-    z-index: 7;
 }
 
 nav ul {
@@ -238,12 +237,27 @@ nav ul :first-child {
 }
 
 @media (min-width: 530px) {
+    #nav {
+        margin-bottom: 0;
+    }
+
     .featured-wine {
         max-width: 450px;
     }
+
+    .wine-club-cta {
+        max-width: 400px;
+    }
+
+    #wc-sign-up, #wc-learn-more {
+        width: 190px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
 }
 
-@media (min-width: 660px) {
+@media (min-width: 730px) {
     .logo {
         width: 50%;
         margin-top: 0;
@@ -324,8 +338,10 @@ nav ul :first-child {
     #nav li {
         background: none;
         margin: 0;
-        font-size: 1.3vw;
-        place-self: center;\
+        padding: 0;
+        font-size: 1.5vw;
+        font-weight: 900;
+        place-self: center;
     }
 
     a:hover {
