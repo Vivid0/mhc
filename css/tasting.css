@@ -50,30 +50,27 @@ address {
 @media (min-width: 530px) {
     
     .map h2 {
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .instructions {
-        font-size: 1.5vw;
-    }
-
-    .north {
-        margin-left: 20vw;
+        font-size: 2vw;
     }
     
     .map img {
-        margin: -5vh 0;
+        margin: 0;
     }
 
     .south {
-        margin-left: 65vw;
-        margin-top: -10vh;
+        margin-left: 40vw;
     }
 }
 
 @media (min-width: 760px) {
     .map img {
         max-width: 700px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -103,15 +100,17 @@ address {
     .article-text {
         font-size: 1.5vw;
     }
-/* 
+
     .north {
-        margin-left: 25vw;
-    } */
+        margin-left: 0;
+    }
+
+    .map h2 {
+        font-size: 30px;
+    }
+
+    .instructions {
+        font-size: 22px;
+    }
 
 }
-/* 
-@media (min-width: 1080px) {
-    .north {
-        margin-left: 30vw;
-    }
-} */

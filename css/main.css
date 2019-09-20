@@ -315,10 +315,6 @@ nav ul :first-child {
         height: 15vh;
     }
 
-    .hero {
-        height: 85vh;
-    }
-
     .logo {
         width: 30vw;
         height: auto;
@@ -362,7 +358,8 @@ nav ul :first-child {
 
     .red-section-list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
     }
 
     .red-section-list img {
