@@ -93,14 +93,14 @@
     opacity: 1;
 }
 
-.special input:checked ~ .checkmark {
+.special input:checked~.checkmark {
     background-color: var(--white);
     border-radius: 5px;
     transform: rotate(0deg) scale(1);
     opacity: 1;
 }
 
-.special input:checked ~ .checkmark::after {
+.special input:checked~.checkmark::after {
     transform: rotate(45deg) scale(1);
     opacity: 1;
     left: 8px;
@@ -151,7 +151,7 @@
 .favWines {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4,40px);
+    grid-template-rows: repeat(4, 40px);
     width: 80vw;
     margin-left: 9vw;
 }
@@ -178,7 +178,56 @@ address {
 .emailPhone {
     color: white;
 }
-/* 
-@media (min-width: 530px) {
 
-} */
+@media (min-width: 700px) {
+    .signup input {
+        font-size: 18px;
+        margin: 0 0 7px 7px;
+    }
+
+    .signup h3 {
+        font-size: 35px;
+    }
+
+    .fname {
+        width: 120px;
+    }
+
+    .lname {
+        width: 350px;
+    }
+
+    .city {
+        width: 250px;
+    }
+    
+    .state {
+        width: 50px;
+    }
+    
+    .zip {
+        width: 163px;
+    }
+    
+    #email {
+        width: 477px;
+        margin-bottom: 10px;
+    }
+
+    .favWines {
+        width: 477px;
+        margin: 0 auto;
+    }
+
+    #submit {
+        width: 238px;
+        height: 75px;
+        font-size: 38px;
+    }
+
+    #reset {
+        width: 238px;
+        height: 75px;
+        font-size: 38px;
+    }
+}
