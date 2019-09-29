@@ -24,10 +24,7 @@ figcaption {
 }
 
 .red-article {
-    display: grid;
-    grid-template-columns: 1fr;
     font-size: 3.5vw;
-    justify-items: center;
 }
 
 .red-article h1 {
@@ -35,15 +32,16 @@ figcaption {
 }
 
 figure {
-    margin: 0;
-    text-align: center;
+    margin: 0 auto;
 }
 
 figure img {
     border: solid black 3px;
+    margin: 0 auto;
+    width: 90vw;
 }
 
-.red-article img {
+.map {
     width: 80vw;
 }
 
@@ -57,4 +55,117 @@ figure img {
 
 .white-article img {
     width: 90vw;
+}
+
+@media (min-width: 900px) {
+    .intro {
+        grid-template-columns: 400px 1fr;
+        grid-template-rows: 75px 370px;
+        font-size: 16px;
+        grid-gap: 5px;
+    }
+    .book {
+        display: block;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    .book img {
+        float: left;
+        width: 150px;
+        margin-right: 20px;
+    }
+    .hide-mobile {
+        display: inherit;
+    }
+    .book-text {
+        margin-bottom: 60px;
+    }
+    .order {
+        margin: 0 auto;
+        background-color: var(--red);
+        color: white;
+        border: none;
+        border-radius: 15px;
+        height: 50px;
+        width: 200px;
+        font-size: 30px;
+        font-family: "Georgia", serif;
+    }
+    .article {
+        font-size: 16px;
+    }
+    .piemonte {
+        display: grid;
+        grid-template-areas: 'cheader cheader cmap' 'text1 text1 cmap' 'text2 cimg cmap' 'text3 cimg cmap';
+    }
+    .piemonte h1 {
+        grid-area: cheader;
+    }
+    .cmap {
+        grid-area: cmap;
+        width: 400px;
+        align-self: center;
+    }
+    .ct1 {
+        grid-area: text1;
+    }
+    .ct2 {
+        grid-area: text2;
+    }
+    .ct3 {
+        grid-area: text3;
+    }
+    .colombano {
+        grid-area: cimg;
+        width: 200px;
+        font-size: 10px;
+    }
+    .colombano img {
+        width: 200px;
+    }
+    .colombano figcaption {
+        font-size: 10px;
+        text-align: center;
+    }
+    .blazing {
+        display: grid;
+        grid-template-areas:
+            'winebarrel bheader'
+            'winebarrel btext'    
+            'winebarrel frontscale';
+            gap: 10px;
+    }
+    .blazing h1 {
+        grid-area: bheader;
+        text-align: start;
+    }
+    .btext {
+        grid-area: btext;
+    }
+    .frontscale {
+        grid-area: frontscale;
+    }
+    .frontscale img {
+        width: 200px;
+    }
+    .frontscale figcaption {
+        font-size: 10px;
+        text-align: center;
+    }
+    }
+    .winebarrel {
+        grid-area: winebarrel;
+        width: 420px;
+        margin: 0 auto;
+    }
+    .winebarrel figcaption {
+        font-size: 10px;
+        text-align: center;
+    }
+    .blazing figure img {
+        width: 420px;
+    }
+    .blazing figure {
+        margin: 0 auto;
+    }
 }

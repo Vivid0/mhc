@@ -316,7 +316,7 @@ nav ul :first-child {
     }
 
     .logo {
-        width: 30vw;
+        width: 300px;
         height: auto;
         order: -1;
     }
@@ -325,7 +325,7 @@ nav ul :first-child {
         background: none;
         color: var(--red);
         display: grid;
-        grid-template-columns: repeat(6,1fr);
+        grid-template-columns: repeat(5,1fr);
         position: static;
         width: 100%;
         line-height: 0;
@@ -335,7 +335,7 @@ nav ul :first-child {
         background: none;
         margin: 0;
         padding: 0;
-        font-size: 1.5vw;
+        font-size: 16px;
         font-weight: 900;
         place-self: center;
     }
@@ -367,7 +367,7 @@ nav ul :first-child {
     }
 
     .container {
-        max-width: 1500px;
+        max-width: 1000px;
     }
 
 }
