@@ -129,11 +129,8 @@ figure img {
     }
     .blazing {
         display: grid;
-        grid-template-areas:
-            'winebarrel bheader'
-            'winebarrel btext'    
-            'winebarrel frontscale';
-            gap: 10px;
+        grid-template-areas: 'winebarrel bheader' 'winebarrel btext' 'winebarrel frontscale';
+        gap: 10px;
     }
     .blazing h1 {
         grid-area: bheader;
@@ -152,20 +149,60 @@ figure img {
         font-size: 10px;
         text-align: center;
     }
-    }
+    
     .winebarrel {
         grid-area: winebarrel;
         width: 420px;
         margin: 0 auto;
     }
+    
     .winebarrel figcaption {
         font-size: 10px;
         text-align: center;
     }
+    
     .blazing figure img {
         width: 420px;
     }
+    
     .blazing figure {
         margin: 0 auto;
+    }
+    
+    .pedrizetti {
+        display: grid;
+        grid-template-areas: 'pheader pheader pmap' 'ptext1 ptext1 pmap' 'pimg ptext2 pmap'
+    }
+    
+    .pheader {
+        grid-area: pheader;
+    }
+    
+    .ptext1 {
+        grid-area: ptext1;
+    }
+    
+    .ptext2 {
+        grid-area: ptext2;
+    }
+    
+    .pmap {
+        grid-area: pmap;
+        width: 400px;
+        align-self: center;
+    }
+    
+    .edEda {
+        grid-area: pimg;
+        width: 200px;
+    }
+    
+    .edEda img {
+        width: 200px;
+    }
+    
+    .edEda figcaption {
+        text-align: center;
+        font-size: 10px;
     }
 }
